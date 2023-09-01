@@ -17,7 +17,7 @@ namespace INSS
 
         public decimal CalcularDesconto(DateTime data, decimal salario)
         {
-            BuscaTblINSS buscaTblINSS = new BuscaTblINSS();
+            BuscaTblINSS buscaTblINSS = new BuscaTblINSS(); 
 
             var faixaSalarial = buscaTblINSS.BuscaTabela(data.Year, salario);
 
